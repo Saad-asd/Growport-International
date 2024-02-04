@@ -1,17 +1,6 @@
 (function ($) {
     "use strict";
 
-    // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    spinner();
-    
-    
     // Initiate the wowjs
     new WOW().init();
 
@@ -88,75 +77,5 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
-
-
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1000,
-        center: true,
-        dots: true,
-        loop: true,
-        responsive: {
-            0:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:3
-            }
-        }
-    });
     
 })(jQuery);
-
-
-
-//
-// Custom javascript for Licences and Certificate
-//
-const slider = document.getElementById("slider");
-const slides = document.querySelectorAll(".slide");
-
-// console.log(slider,slides.typeOf)
-if(!slider===null||!slides===undefined){
-let currentIndex = 0;
-var sliderInterval;
-
-function showSlide(index) {
-  if (index < 0) {
-    currentIndex = slides.length - 1;
-  } else if (index >= slides.length) {
-    currentIndex = 0;
-  } else {
-    currentIndex = index;
-  }
-
-  const offset = -currentIndex * 100 + "%";
-  slider.style.transform = `translateX(${offset})`;
-}
-
-function nextSlide() {
-  showSlide(currentIndex + 1);
-  clearInterval(sliderInterval);
-  startInterval();
-}
-
-function prevSlide() {
-  showSlide(currentIndex - 1);
-  clearInterval(sliderInterval);
-  startInterval();
-}
-
-function autoSlide() {
-  nextSlide();
-}
-
-function startInterval() {
-  sliderInterval = setInterval(autoSlide, 3000);
-}
-
-startInterval();
-}
