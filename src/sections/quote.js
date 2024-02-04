@@ -22,19 +22,19 @@ function Quote() {
                             <div className="row g-3">
                                 <div className="col-12 col-sm-6">
                                     <input type="text" className="form-control border-0" placeholder="Your Name"
-                                        style="height: 55px;"/>
+                                        style={{height: 55+'px'}}/>
                                 </div>
                                 <div className="col-12 col-sm-6">
                                     <input type="email" className="form-control border-0" placeholder="Your Email"
-                                        style="height: 55px;"/>
+                                        style={{height: 55+'px'}}/>
                                 </div>
                                 <div className="col-12 col-sm-6">
                                     <input type="text" className="form-control border-0" placeholder="Your Mobile"
-                                        style="height: 55px;"/>
+                                        style={{height: 55+'px'}}/>
                                 </div>
                                 <div className="col-12 col-sm-6">
-                                    <select className="form-select border-0" style="height: 55px;">
-                                        <option selected>Select A Freight</option>
+                                    <select className="form-select border-0" style={{height: 55+'px'}}>
+                                        <option select="true">Select A Freight</option>
                                         <option value="1">Freight 1</option>
                                         <option value="2">Freight 2</option>
                                         <option value="3">Freight 3</option>

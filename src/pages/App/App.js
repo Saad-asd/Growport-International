@@ -13,7 +13,7 @@ import Footer from '../../sections/footer';
 
 function App() {
   return (
-    <div>
+    <>
       <Spinner></Spinner>
       <Topnav></Topnav>
       <Navbar></Navbar>
@@ -25,7 +25,7 @@ function App() {
       <Quote></Quote>
       <License></License>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 

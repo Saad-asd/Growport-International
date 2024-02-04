@@ -14,7 +14,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Air Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -24,7 +24,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Ocean Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -34,7 +34,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Road Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -44,7 +44,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Train Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -54,7 +54,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Customs Clearance</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -64,7 +64,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Warehouse Solutions</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" link="./InformationTemplate.html"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
             </div>

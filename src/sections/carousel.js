@@ -3,9 +3,9 @@ function Carousel() {
         <div className="container-fluid p-0 pb-5">
         <div className="owl-carousel header-carousel position-relative mb-5">
             <div className="owl-carousel-item position-relative">
-                <image className="img-fluid" src="img/carousel-1.jpg" alt=""/>
+                <img className="img-fluid" src="img/carousel-1.jpg" alt=""/>
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(6, 3, 21, .5);">
+                    style={{background: 'rgba(6, 3, 21, .5)'}}>
                     <div className="container">
                         <div className="row justify-content-start">
                             <div className="col-10 col-lg-8">
@@ -16,14 +16,16 @@ function Carousel() {
                                     Your Best Gateway to Global Trade Excellence</p>
                             </div>
                         </div>
+                        <i class="bi bi-chevron-left"></i>
+                        <i class="bi bi-chevron-right"></i>
                     </div>
                 </div>
             </div>
 
             <div className="owl-carousel-item position-relative">
-                <image className="img-fluid" src="img/carousel-3.jpg" alt=""/>
+                <img className="img-fluid" src="img/carousel-3.jpg" alt=""/>
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(6, 3, 21, .5);">
+                    style={{background: 'rgba(6, 3, 21, .5)'}}>
                     <div className="container">
                         <div className="row justify-content-start">
                             <div className="col-10 col-lg-8">
@@ -41,9 +43,9 @@ function Carousel() {
 
 
             <div className="owl-carousel-item position-relative">
-                <image className="img-fluid" src="img/carousel-2.jpg" alt=""/>
+                <img className="img-fluid" src="img/carousel-2.jpg" alt=""/>
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(6, 3, 21, .5);">
+                    style={{background: 'rgba(6, 3, 21, .5)'}}>
                     <div className="container">
                         <div className="row justify-content-start">
                             <div className="col-10 col-lg-8">
