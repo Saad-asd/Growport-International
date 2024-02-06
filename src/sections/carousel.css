@@ -1,0 +1,8 @@
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next {
+    color:white !important;
+    border: 1px solid !important;
+
+}
+/* .owl-carousel .owl-nav button.owl-prev>i,.owl-carousel .owl-nav button.owl-next>i {
+    border:inherit !important;
+} */
