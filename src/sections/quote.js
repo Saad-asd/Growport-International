@@ -1,11 +1,11 @@
 function Quote() {
     return (
-        <div className="container-xxl py-5">
+        <div id="contact" className="container-xxl py-5">
         <div className="container py-5">
             <div className="row g-5 align-items-center">
                 <div className="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 className="text-secondary text-uppercase mb-3">Get A Quote</h6>
-                    <h1 className="mb-5">Request A Free Qoute!</h1>
+                    <h1 className="mb-5">Request A Free Quote!</h1>
                     <p className="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
                         eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                     <div className="d-flex align-items-center">
