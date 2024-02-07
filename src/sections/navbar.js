@@ -1,7 +1,7 @@
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="#index" className="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+        <a href="#" className="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
             <h2 className="mb-2 text-white">Growport International</h2>
         </a>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
