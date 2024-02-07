@@ -9,7 +9,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#index" className="nav-item nav-link active">Home</a>
+                <a href="#" className="nav-item nav-link active">Home</a>
                 <a href="#about" className="nav-item nav-link">About</a>
                 <a href="#service" className="nav-item nav-link">Services</a>
                 <div className="nav-item dropdown">
