@@ -1,6 +1,6 @@
 function Service() {
     return (
-        <div className="container-xxl py-5">
+        <div id="service" className="container-xxl py-5">
         <div className="container py-5">
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 className="text-primary text-uppercase red-head">Our Services</h6>
