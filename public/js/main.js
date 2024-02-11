@@ -62,20 +62,5 @@
         delay: 10,
         time: 2000
     });
-
-
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1500,
-        items: 1,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i className="bi bi-chevron-left"></i>',
-            '<i className="bi bi-chevron-right"></i>'
-        ]
-    });
     
 })(jQuery);
