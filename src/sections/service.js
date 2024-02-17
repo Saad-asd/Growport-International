@@ -14,7 +14,7 @@ function Service() {
                         </div>
                         <h4 className="mb-3">Air Freight</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a className="btn-slide mt-2" href="/products/product1"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a className="btn-slide mt-2" href="/products/grocery"><i className="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
