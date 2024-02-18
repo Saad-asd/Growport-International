@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import {Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import './Layout.css';
 import Spinner from '../../sections/spinner';
 import Topnav from '../../sections/topnav';
@@ -30,8 +30,10 @@ function App() {
       <Spinner></Spinner>
       <Topnav></Topnav>
       <Navbar></Navbar>
-      <Outlet/>
+      <Outlet />
       <Footer></Footer>
+
+      <a href="#top" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
     </>
   );
 }
