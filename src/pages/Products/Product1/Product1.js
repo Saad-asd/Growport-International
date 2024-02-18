@@ -1,113 +1,30 @@
 import { useParams } from 'react-router-dom';
+import products from '../../../common/products';
+import { isEmptyObject } from 'jquery';
+
 function Product1() {
 	const { id } = useParams();
-	const products = [
-		{
-			grocery: {
-				desc: 'All Types of grocery items can be tranported.',
-				productImage: '/img/productImages/grocery/MainGrocery.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			furniture: {
-				desc: 'All Types of furniture items can be tranported.',
-				productImage: '/img/productImages/furniture/MainFurniture.jfif',
-				subImages:[
-					'/img/productImages/furniture/furniture.jfif',
-					'/img/productImages/furniture/furniture2.jfif',
-					'/img/productImages/furniture/furniture3.jfif',
-					'/img/productImages/furniture/furniture4.jfif',
-					'/img/productImages/furniture/furniture5.jfif',
-					'/img/productImages/furniture/furniture6.jfif',
-				]
-			}
-		},
-		{
-			garments: {
-				desc: 'All Types of febric items can be tranported.',
-				productImage: '/img/productImages/garments/MainGarments.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			jewellery: {
-				desc: 'All Types of electronics items can be tranported.',
-				productImage: '/img/productImages/jewellery/MainJewellery.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			leather: {
-				desc: 'All Types of glass items can be tranported.',
-				productImage: '/img/productImages/leather/MainLeatherProducts.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			packaging: {
-				desc: 'All Types of glass items can be tranported.',
-				productImage: '/img/productImages/packaging/MainPackagingProducts.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			ceramic: {
-				desc: 'All Types of glass items can be tranported.',
-				productImage: '/img/productImages/ceramic/MainCeramicProducts.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			copper: {
-				desc: 'All Types of glass items can be tranported.',
-				productImage: '/img/productImages/copper/MainCopperProducts.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-		{
-			fruitveggies: {
-				desc: 'All Types of glass items can be tranported.',
-				productImage: '/img/productImages/fruitveggies/MainFruitVeggies.jfif',
-				subImages:[
-					'',
-				]
-			}
-		},
-	]
+
 	const elements = []
 	let prdObj;
 	for (let i in products) {
 		if (Object.keys(products[i])[0] === id) {
 			prdObj = products[i][id]
-			let itemImages = prdObj['subImages'].map((imgPath)=>{
-				return <div className="ImgDiv">
-					<figure>
-						<img src={imgPath} alt={'Product Item ' + id}></img>
-						<figcaption className="CenterAlign">Your label goes here</figcaption>
-					</figure>
+			let itemImages = prdObj['subImages'].map((imgPath) => {
+				return <div className="col">
+					<div className="card">
+						<img src={imgPath} alt={'Product Item ' + id} />
+						<div className="card-footer">
+							<small className="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
 				</div>
 			});
-			elements.push(<div className="ProductImages">
-				{itemImages}
-			</div>)
+			elements.push(itemImages)
 			break;
 		}
 	}
+	alert(isEmptyObject(prdObj))
 
 	return (
 		<>
@@ -124,19 +41,27 @@ function Product1() {
 				</div>
 			</div>
 
-			<div className="MainCon">
+			<div className="container">
 				<h2>Product Details</h2>
-				<div className="SubCon">
-					<div className="Column2">
-						<img src={prdObj['productImage']} alt={'main image ' + id} />
-					</div>
-					<div className="Column2">
-						<p>{prdObj['desc']}</p>
-					</div>
+				<div class="card mb-3">
+					<img src={prdObj['productImage']} alt={'main image ' + id} maxWidth={'600px'} class="image-fluid" />
+						<div class="card-body">
+							<h5 class="card-title">{id.toUpperCase()}</h5>
+							<p class="card-text">{prdObj['desc']}</p>
+						</div>
 				</div>
 
 			</div>
-			{elements}
+
+
+			<div className="container">
+				<div className="row row-cols-1 row-cols-md-3 g-4">
+					{elements}
+				</div>
+			</div>
+
+
+			{/* {elements} */}
 		</>
 	)
 }

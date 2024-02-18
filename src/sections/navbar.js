@@ -1,4 +1,4 @@
-import { link } from 'react-router-dom';
+import { Link, link } from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -11,9 +11,9 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/" className="nav-item nav-link active">Home</a>
-                <a href="#about" className="nav-item nav-link">About</a>
-                <a href="#service" className="nav-item nav-link">Services</a>
+                <Link to="/" className="nav-item nav-link active">Home</Link>
+                <Link to="/#about" className="nav-item nav-link">About</Link>
+                <a href="/#service" className="nav-item nav-link">Services</a>
                 <div className="nav-item dropdown">
                     <a href="" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                     <div className="dropdown-menu fade-up m-0">
