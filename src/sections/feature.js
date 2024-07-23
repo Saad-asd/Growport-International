@@ -4,8 +4,7 @@ function Feature() {
         <div className="container feature py-5 px-lg-0">
             <div className="row g-5 mx-lg-0">
                 <div className="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 className="text-primary text-uppercase mb-3"
-                        style={{fontSize:40+'px', position:'relative', bottom:80+'px', left:450+'px'}}>Why You Choose Us</h6>
+                    <h6 className=" text-center text-primary text-uppercase mb-3" >Why You Choose Us</h6>
                     <h1 className="mb-5">We Are Trusted Import Export Company</h1>
                     <div className="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
                         <i className="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
