@@ -33,7 +33,7 @@ function App() {
       <Outlet />
       <Footer></Footer>
 
-      <a href="#top" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+      <a href="#top" className="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i className="bi bi-arrow-up"></i></a>
     </>
   );
 }

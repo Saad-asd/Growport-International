@@ -23,12 +23,12 @@ function Fact() {
                             <div className="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
                                 <i className="fa fa-users fa-2x text-white mb-3"></i>
                                 <h2 className="text-white mb-2" >Export</h2>
-                                <p className="text-white mb-0">We are Exporting best quality product around the world.</p>
+                                <p className="text-white mb-0">We are Exporting best quality products around the globe.</p>
                             </div>
                             <div className="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
                                 <i className="fa fa-ship fa-2x text-white mb-3"></i>
-                                <h2 className="text-white mb-2" >Training & Consultancy</h2>
-                                <p className="text-white mb-0">We are promoting global business.</p>
+                                <h2 className="text-white mb-2" >Import</h2>
+                                <p className="text-white mb-0">We now Import products around the world.</p>
                             </div>
                         </div>
                         <div className="col-sm-6">

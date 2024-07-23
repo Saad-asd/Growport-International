@@ -6,7 +6,7 @@ function Footer() {
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-light mb-4">Address</h4>
                     <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p className="mb-2"><a href="tel:6260852048" style={{color: "unset"}}><i className="fa fa-phone-alt me-3"></i>+012 345 67890</a></p>
                     <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
                     <div className="d-flex pt-2">
                         <a className="btn btn-outline-light btn-social" link=""><i className="fab fa-twitter"></i></a>
@@ -31,7 +31,7 @@ function Footer() {
                     <a className="btn btn-link" link="">Terms & Condition</a>
                     <a className="btn btn-link" link="">Support</a>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                {/* <div className="col-lg-3 col-md-6">
                     <h4 className="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div className="position-relative mx-auto" style={{maxWidth: 400+'px'}}>
@@ -39,7 +39,7 @@ function Footer() {
                         <button type="button"
                             className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="container">

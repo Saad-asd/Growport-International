@@ -11,11 +11,11 @@ function TopNav() {
         </div>
     
         <div className="right-section">
-          <a link="#"><i className="fab fa-facebook"></i></a>
-          <a link="#"><i className="fab fa-instagram"></i></a>
-          <a link="#"><i className="fab fa-twitter"></i></a>
-          <a link="#"><i className="fab fa-linkedin"></i></a>
-          <a link="#"><i className="fab fa-whatsapp"></i></a>
+          <a href="#"><i className="fab fa-facebook"></i></a>
+          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#"><i className="fab fa-twitter"></i></a>
+          <a href="#"><i className="fab fa-linkedin"></i></a>
+          <a href="#"><i className="fab fa-whatsapp"></i></a>
         </div>
       </div>
   );

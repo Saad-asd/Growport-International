@@ -265,7 +265,9 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    /* background: var(--primary) linear-gradient(#00000029, transparent, transparent, transparent, white); */
+    background: var(--primary);
+    text-align: center;
     background-size: cover;
 }
 
@@ -527,16 +529,16 @@
 
 #slider-container img {
     max-width: 100%;
-    height: auto;
+    height: 30vh;
     border-radius: 10px;
-    max-height: 300px;
+    object-fit: cover;
 }
 
 #slider-container button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgb(226, 226, 226);
+    background: rgba(226, 226, 226, 0.55);
     color: var(--primary);
     border: none;
     padding: 10px;
@@ -548,6 +550,7 @@
     font-weight: 900;
     margin-right: 10px;
     font-size: x-large;
+    backdrop-filter: blur(2px);
 }
 
 #slider-container #prevBtn::after {
@@ -569,7 +572,7 @@
 .sticky-image-container {
     background: url('https://oesexportimport.com/wp-content/uploads/2020/07/export.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
 }
 
