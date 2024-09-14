@@ -3,13 +3,12 @@ const products = [
 		"grocery": {
 			"summary": 'Just a simple description about the product.',
 			"category": [
-					{"Rice": [
-						{ "galexy": "/img/productImages/grocery/rice.avif" },
-						{ "basmati": "/img/productImages/grocery/rice.avif" }
+					{"Flour": [
+						{ "Brown Rice Flour": "/img/productImages/grocery/riceflour1.jpeg" },
+						{ "Rice Flour": "/img/productImages/grocery/riceflour2.jpeg" }
 					]},
 					{"Pulses": [
-						{ "toor": "/img/productImages/grocery/rice.avif" },
-						{ "masoor": "/img/productImages/grocery/rice.avif" }
+						{ "toor": "/img/productImages/grocery/pulses.avif" }
 					]}
 			],
 			"desc": 'We offer a wide variety of high-quality groceries for import and export, ensuring your business has access to the ingredients and staples needed to thrive. From aromatic Basmati rice and wholesome whole wheat to seasonal fruits and vegetables, our extensive selection caters to diverse dietary needs and culinary preferences.  We handle the logistics of international trade, so you can focus on delivering delicious options to your customers.',
