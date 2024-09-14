@@ -80,9 +80,9 @@ function Product1() {
 			</div>
 
 			<div className="container">
-				<div className="row mb-3 g-4">
+				{/* <div className="row mb-3 g-4">
 					{elements}
-				</div>
+				</div> */}
 			<h1 style={{color:"#FF3E41",textAlign:"center"}}>Few types of {id} mentioned below</h1>
 				<div className="row g-4">
 					{category}

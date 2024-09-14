@@ -15,7 +15,7 @@ function Footer() {
                         <a className="btn btn-outline-light btn-social" link=""><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                {/* <div className="col-lg-3 col-md-6">
                     <h4 className="text-light mb-4">Services</h4>
                     <a className="btn btn-link" link="">Air Freight</a>
                     <a className="btn btn-link" link="">Sea Freight</a>
@@ -30,7 +30,7 @@ function Footer() {
                     <a className="btn btn-link" link="">Our Services</a>
                     <a className="btn btn-link" link="">Terms & Condition</a>
                     <a className="btn btn-link" link="">Support</a>
-                </div>
+                </div> */}
                 {/* <div className="col-lg-3 col-md-6">
                     <h4 className="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
@@ -46,12 +46,11 @@ function Footer() {
             <div className="copyright">
                 <div className="row">
                     <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a className="border-bottom" link="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a className="border-bottom" link="#">Growport International</a>, All Right Reserved.
                     </div>
-                    <div className="col-md-6 text-center text-md-end">
-    
+                    {/* <div className="col-md-6 text-center text-md-end">
                         Designed By <a className="border-bottom" link="https://htmlcodex.com">HTML Codex</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
