@@ -49,7 +49,7 @@ const products = [
 			"subItems": ["Chairs", "Tables", "Stules", "Bed", "Dining set", "Wardrobe"]
 		}},{
 		"fabric": {
-			"summary": "Just a simple description about the product.",
+			"summary": "Soft and breathable fabric, perfect for all-day comfort. Durable, stylish, and available in various colors.",
 			"category": [
 				{
 					"Rice": [
@@ -58,7 +58,7 @@ const products = [
 					]
 				}
 			],
-			"desc": "All Types of fabric items can be transported.",
+			"desc": "A versatile and durable fabric made from high-quality materials, ideal for clothing, home textiles, and crafts. Its soft texture and breathable properties ensure comfort, while its strength and easy-care features make it perfect for everyday use. Available in various colors and patterns to suit any style or project.",
 			"productImage": "/img/productImages/garments/MainGarments.jfif",
 			"subImages": [
 				"/img/productImages/garments/garments1.jpg",
@@ -83,7 +83,7 @@ const products = [
 			"subItems": ["Eggs", "Handicraft items", "Imitation jewellery", "Leather products", "Copper bottle and items", "Ceramic tiles and stones", "Surgical equipment", "Pharmaceutical", "Alkaline water / Minerals water", "Herbal, skin & health products"]
 		}},{
 		"fruitveggies": {
-			"summary": "Just a simple description about the product.",
+			"summary": "Fresh, colorful fruit and veggies in a convenient line – packed with vitamins, flavor, and crunch. Perfect for a healthy snack or meal!",
 			"category": [
 				{
 					"Rice": [
@@ -92,7 +92,8 @@ const products = [
 					]
 				}
 			],
-			"desc": "All Types of glass items can be transported.",
+			"desc": "Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness.
+ Packed with essential vitamins, minerals, and antioxidants to support overall health.",
 			"productImage": "/img/productImages/fruitveggies/MainFruitVeggies.jfif",
 			"subImages": [
 				"/img/productImages/fruitveggies/fruitesveggies1.webp",
@@ -130,7 +131,7 @@ const products = [
 	// 		category: [
 	// 			{ Rice: "/img/productImages/grocery/rice.avif" }
 	// 		],
-	// 		desc: 'All Types of febric items can be tranported.',
+	// 		desc: '',
 	// 		productImage: '/img/productImages/garments/MainGarments.jfif',
 	// 		subImages: [
 	// 			'/img/productImages/garments/garments1.jpg',
