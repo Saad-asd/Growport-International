@@ -8,7 +8,7 @@ const products = [
 						{ "Rice Flour": "/img/productImages/grocery/riceflour2.jpeg" }
 					]},
 					{"Pulses": [
-						{ "toor": "/img/productImages/grocery/pulses.avif" }
+						{ "Toor": "/img/productImages/grocery/pulses.avif" }
 					]}
 			],
 			"desc": 'We offer a wide variety of high-quality groceries for import and export, ensuring your business has access to the ingredients and staples needed to thrive. From aromatic Basmati rice and wholesome whole wheat to seasonal fruits and vegetables, our extensive selection caters to diverse dietary needs and culinary preferences.  We handle the logistics of international trade, so you can focus on delivering delicious options to your customers.',
@@ -92,8 +92,7 @@ const products = [
 					]
 				}
 			],
-			"desc": "Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness.
- Packed with essential vitamins, minerals, and antioxidants to support overall health.",
+			"desc": `Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness. Packed with essential vitamins, minerals, and antioxidants to support overall health.`,
 			"productImage": "/img/productImages/fruitveggies/MainFruitVeggies.jfif",
 			"subImages": [
 				"/img/productImages/fruitveggies/fruitesveggies1.webp",
@@ -131,7 +130,7 @@ const products = [
 	// 		category: [
 	// 			{ Rice: "/img/productImages/grocery/rice.avif" }
 	// 		],
-	// 		desc: '',
+	// 		desc: 'All Types of febric items can be tranported.',
 	// 		productImage: '/img/productImages/garments/MainGarments.jfif',
 	// 		subImages: [
 	// 			'/img/productImages/garments/garments1.jpg',
