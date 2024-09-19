@@ -92,8 +92,7 @@ const products = [
 					]
 				}
 			],
-			"desc": "Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness.
- Packed with essential vitamins, minerals, and antioxidants to support overall health.",
+			"desc": `Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness. Packed with essential vitamins, minerals, and antioxidants to support overall health.`,
 			"productImage": "/img/productImages/fruitveggies/MainFruitVeggies.jfif",
 			"subImages": [
 				"/img/productImages/fruitveggies/fruitesveggies1.webp",
