@@ -3,11 +3,11 @@ function Footer() {
         <div className="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style={{marginTop: 6+'rem'}}>
         <div className="container py-5">
             <div className="row g-5">
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-6 col-md-12">
                     <h4 className="text-light mb-4">Address</h4>
-                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p className="mb-2"><a href="tel:6260852048" style={{color: "unset"}}><i className="fa fa-phone-alt me-3"></i>+012 345 67890</a></p>
-                    <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Ashoka Garden, MP, India.</p>
+                    <p className="mb-2"><a href="tel:6260852048" style={{color: "unset"}}><i className="fa fa-phone-alt me-3"></i>+91 999 395 6153</a></p>
+                    <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@growportinternational.com</p>
                     <div className="d-flex pt-2">
                         <a className="btn btn-outline-light btn-social" link=""><i className="fab fa-twitter"></i></a>
                         <a className="btn btn-outline-light btn-social" link=""><i className="fab fa-facebook-f"></i></a>
