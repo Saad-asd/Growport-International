@@ -7,14 +7,14 @@ function Service() {
     const elements = productNames.map(productName => {
         const item = products.find(product => Object.keys(product)[0] === productName)[productName];
         return <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div className="service-item p-4 card">
+            <Link className="service-item p-4 card" to={"/products/" + productName}>
                 <div className="overflow-hidden mb-4 img-cntr">
                     <img className="img-fluid" src={item.productImage} alt="" />
                 </div>
                 <h4 className="mb-3">{capitalize(productName)}</h4>
                 <p>{item.summary}</p>
-                <Link className="btn-slide mt-2" to={"/products/" + productName}><i className="fa fa-arrow-right"></i><span>Read More</span></Link>
-            </div>
+                {/* <Link className="btn-slide mt-2" to={"/products/" + productName}><i className="fa fa-arrow-right"></i><span>Read More</span></Link> */}
+            </Link>
         </div>;
     });
 
