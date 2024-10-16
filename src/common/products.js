@@ -28,22 +28,22 @@ const products = [
 						{ "Bags": "/img/productImages/leather/bags.jpg" }
 					]},
 					{"Belts": [
-						{ "Toor": "/img/productImages/leather/belt.jpg" }
+						{ "Belts": "/img/productImages/leather/belt.jpg" }
 					]},
 					{"Gloves": [
-						{ "Toor": "/img/productImages/leather/gloves.jpg" }
+						{ "Gloves": "/img/productImages/leather/gloves.jpg" }
 					]},
 					{"Jackets": [
-						{ "Toor": "/img/productImages/leather/jacket.jpg" }
+						{ "Jackets": "/img/productImages/leather/jacket.jpg" }
 					]},
 					{"Shoes": [
-						{ "Toor": "/img/productImages/leather/shoes.jpg" }
+						{ "Shoes": "/img/productImages/leather/shoes.jpg" }
 					]},
 					{"Sandals": [
-						{ "Toor": "/img/productImages/leather/sandals.jpg" }
+						{ "Sandals": "/img/productImages/leather/sandals.jpg" }
 					]},
 					{"Wallet": [
-						{ "Toor": "/img/productImages/leather/wallet.jpg" }
+						{ "Wallet": "/img/productImages/leather/wallet.jpg" }
 					]}
 			],
 			"desc": `We offer a wide variety of high-quality groceries for import and export, ensuring your business has access to the ingredients and staples needed to thrive. From aromatic Basmati rice and wholesome whole wheat to seasonal fruits and vegetables, our extensive selection caters to diverse dietary needs and culinary preferences.  We handle the logistics of international trade, so you can focus on delivering delicious options to your customers.`,
