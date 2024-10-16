@@ -338,6 +338,9 @@
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
+.service-item{
+    height: 100%;
+}
 
 .service-item img,
 .team-item img {
