@@ -48,7 +48,7 @@ function Quote() {
                             <i className="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                             <div className="ps-4">
                                 <h6>Call for any query!</h6>
-                                <h3 className="text-primary m-0">+012 345 6789</h3>
+                                <h3 className="text-primary m-0"><a href="tel:9244566292" style={{color: "unset"}}>+91 92445 66292</a></h3>
                             </div>
                         </div>
                     </div>

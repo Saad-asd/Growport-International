@@ -1,7 +1,7 @@
 const products = [
 	{
 		"grocery": {
-			"summary": 'Just a simple description about the product.',
+			"summary": 'We offer a wide range of imported and locally sourced grocery products, ensuring global availability of essential food items through our extensive import-export network, bringing quality to your shelves.',
 			"category": [
 					{"Flour": [
 						{ "Brown Rice Flour": "/img/productImages/grocery/riceflour1.jpeg" },
@@ -11,7 +11,7 @@ const products = [
 						{ "Toor": "/img/productImages/grocery/pulses.avif" }
 					]}
 			],
-			"desc": `We offer a wide variety of high-quality groceries for import and export, ensuring your business has access to the ingredients and staples needed to thrive. From aromatic Basmati rice and wholesome whole wheat to seasonal fruits and vegetables, our extensive selection caters to diverse dietary needs and culinary preferences.  We handle the logistics of international trade, so you can focus on delivering delicious options to your customers.`,
+			"desc": `Our grocery selection is carefully curated to provide a diverse range of essential food products, sourced both locally and internationally. From premium grains and spices to canned goods and specialty foods, we leverage our global import-export expertise to bring top-quality items to your market. With a focus on freshness, authenticity, and competitive pricing, we cater to retailers and distributors looking to offer their customers a variety of high-demand grocery products. Our extensive network ensures consistent availability of goods, bridging the gap between international suppliers and local markets. Whether you need staple foods or unique specialty products, we manage the entire process—from sourcing to logistics—so you can meet customer demand with ease.`,
 			// "productImage": '/img/productImages/grocery/MainGrocery.avif',
 			"productImage": '/img/productImages/grocery/main.jpg',
 			"subImages": [
@@ -22,7 +22,7 @@ const products = [
 	},
 	{
 		"leather": {
-			"summary": 'Just a simple description about the product.',
+			"summary": 'Supplying premium leather products globally, our import-export operations ensure the finest quality leather goods reach international markets, from raw materials to finished items, tailored for discerning industries.',
 			"category": [
 					{"Bags": [
 						{ "Bags": "/img/productImages/leather/bags.jpg" }
@@ -46,7 +46,7 @@ const products = [
 						{ "Wallet": "/img/productImages/leather/wallet.jpg" }
 					]}
 			],
-			"desc": `We offer a wide variety of high-quality groceries for import and export, ensuring your business has access to the ingredients and staples needed to thrive. From aromatic Basmati rice and wholesome whole wheat to seasonal fruits and vegetables, our extensive selection caters to diverse dietary needs and culinary preferences.  We handle the logistics of international trade, so you can focus on delivering delicious options to your customers.`,
+			"desc": `Our leather products are synonymous with quality, style, and durability. Sourced from top manufacturers worldwide, we supply a broad spectrum of leather goods—from raw hides to finished items such as jackets, bags, and shoes—through our efficient import-export network. By partnering with trusted tanneries and artisans across continents, we ensure that only premium-grade leather reaches global markets, meeting the needs of fashion houses, retailers, and manufacturers. Our expertise in international logistics allows us to provide a seamless supply chain, overcoming geographical boundaries to deliver high-quality leather products to your doorstep. With a focus on ethical sourcing and sustainability, we cater to industries that value craftsmanship and quality.`,
 			// "productImage": '/img/productImages/grocery/MainGrocery.avif',
 			"productImage": '/img/productImages/leather/main.jpg',
 			"subImages": [
@@ -57,7 +57,7 @@ const products = [
 	},
 	{
 		"furniture": {
-			"summary": "Just a simple description about the product.",
+			"summary": "Offering high-quality, durable furniture sourced globally, our import-export services ensure that unique designs and premium materials reach international markets, meeting diverse interior design and functional needs.",
 			"category": [
 				{"Beds": [
 					{ "Bed": "/img/productImages/furniture/bed.jpg" }
@@ -76,7 +76,7 @@ const products = [
 					{ "Wardrobe": "/img/productImages/furniture/wardrobe.jpg" }
 				]}
 			],
-			"desc": "All Types of furniture items can be transported.",
+			"desc": "Our furniture import-export business caters to the ever-evolving needs of global markets, providing a wide range of premium furniture pieces for residential, commercial, and hospitality sectors. From luxurious handcrafted wooden furniture to modern, functional designs made with sustainable materials, we source products from trusted manufacturers worldwide. We pride ourselves on ensuring that each piece meets high standards of quality, durability, and aesthetic appeal. Our logistics expertise enables seamless delivery across borders, ensuring timely access to unique, high-quality furniture items that enhance any space. Whether you're an interior designer, retailer, or wholesaler, we simplify the process of sourcing international furniture, delivering style and comfort directly to your market.",
 			// "productImage": "/img/productImages/furniture/MainFurniture.jfif",
 			"productImage": "/img/productImages/furniture/main.jpg",
 			"subImages": [
@@ -90,7 +90,7 @@ const products = [
 			"subItems": ["Chairs", "Tables", "Stules", "Bed", "Dining set", "Wardrobe"]
 		}},{
 		"fabric": {
-			"summary": "Soft and breathable fabric, perfect for all-day comfort. Durable, stylish, and available in various colors.",
+			"summary": "We export premium fabrics globally, catering to the fashion and textile industry with high-quality materials, including cotton, silk, and synthetic blends, ensuring timely and efficient international deliveries.",
 			"category": [
 				{
 					"Rice": [
@@ -99,7 +99,7 @@ const products = [
 					]
 				}
 			],
-			"desc": "A versatile and durable fabric made from high-quality materials, ideal for clothing, home textiles, and crafts. Its soft texture and breathable properties ensure comfort, while its strength and easy-care features make it perfect for everyday use. Available in various colors and patterns to suit any style or project.",
+			"desc": "Our fabric division specializes in sourcing and exporting a diverse range of textiles, including cotton, silk, linen, and synthetic blends, to meet the growing demands of the global fashion and textile industries. We work closely with leading mills and manufacturers to ensure that our fabrics meet the highest standards of quality, durability, and sustainability. Whether you're looking for luxurious silks or durable industrial textiles, our import-export business connects you to the best suppliers from around the world. Our established supply chain ensures timely delivery and competitive pricing, making it easier for garment manufacturers, designers, and retailers to access the materials they need. With a commitment to excellence, we bring the best fabrics to international markets with ease and reliability.",
 			// "productImage": "/img/productImages/garments/MainGarments.jfif",
 			"productImage": "/img/productImages/garments/main.jpg",
 			"subImages": [
@@ -110,7 +110,7 @@ const products = [
 			"subItems": ["Raw Fabrics", "Readymade Garments", "Stitched suits"]
 		}},{
 		"Jewellery": {
-			"summary": "Just a simple description about the product.",
+			"summary": "Our import-export business delivers exquisite jewellery pieces, from gold and silver to diamonds and gemstones, connecting global markets to timeless craftsmanship and elegant designs.",
 			"category": [
 				{"Bangles": [
 						{ "Bangles": "/img/productImages/jewellery/bangles.jpg" }
@@ -125,14 +125,14 @@ const products = [
 						{ "White Gems": "/img/productImages/jewellery/necklace2.jpg" }
 					]}
 			],
-			"desc": "All Types of electronics items can be transported.",
+			"desc": "We specialize in the global trade of fine jewellery, offering a range of exquisite pieces crafted from precious metals, diamonds, and gemstones. Our import-export network ensures that we can source and deliver the highest quality jewellery from renowned manufacturers and artisans worldwide. Whether you're a retailer seeking luxurious necklaces, rings, or earrings, or a wholesaler looking to expand your inventory, our expertise in international trade allows us to meet your specific needs. We handle every aspect of the supply chain—from sourcing raw materials to delivering finished pieces—ensuring that each item arrives in perfect condition. With a focus on craftsmanship, design, and quality, we bring the allure of global jewellery markets to your doorstep.",
 			// "productImage": "/img/productImages/jewellery/MainJewellery.jfif",
 			"productImage": "/img/productImages/jewellery/main.jpg",
 			"subImages": [],
 			"subItems": ["Eggs", "Handicraft items", "Imitation jewellery", "Leather products", "Copper bottle and items", "Ceramic tiles and stones", "Surgical equipment", "Pharmaceutical", "Alkaline water / Minerals water", "Herbal, skin & health products"]
 		}},{
 		"fruitveggies": {
-			"summary": "Fresh, colorful fruit and veggies in a convenient line – packed with vitamins, flavor, and crunch. Perfect for a healthy snack or meal!",
+			"summary": "Fresh, high-quality fruits and vegetables sourced globally. Our import-export network ensures year-round availability of premium produce, delivering farm-fresh goods directly to your doorstep, no matter where you're located.",
 			"category": [
 				{"Fruites": [
 						{ "Apple": "/img/productImages/fruitveggies/apple.ajpgvif" },
@@ -147,7 +147,7 @@ const products = [
 						{ "Onion": "/img/productImages/fruitveggies/onion.jpg" }
 					]}
 			],
-			"desc": `Our selection of fresh fruits and vegetables offers a vibrant variety of colors, flavors, and nutrients. Each item is carefully sourced to ensure peak freshness and quality, perfect for enhancing your meals with natural goodness. Packed with essential vitamins, minerals, and antioxidants to support overall health.`,
+			"desc": `Our fruits and vegetables come from the finest farms around the world, ensuring that only the freshest and highest-quality produce reaches your market. As an established import-export business, we pride ourselves on sourcing seasonal and exotic fruits and vegetables from trusted suppliers across continents. With a robust supply chain, we can deliver a wide range of fresh produce, from tropical fruits to crisp greens, directly to your location, regardless of season or geography. Whether you are a retailer or distributor, we handle the complexities of global trade, ensuring timely delivery, competitive pricing, and strict adherence to international quality standards. Let us help you bring the best of global agriculture to your customers.`,
 			// "productImage": "/img/productImages/fruitveggies/MainFruitVeggies.jfif",
 			"productImage": "/img/productImages/fruitveggies/main.jpg",
 			"subImages": [

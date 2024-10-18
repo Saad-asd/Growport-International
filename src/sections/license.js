@@ -64,21 +64,21 @@ function License() {
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="la.jpg" alt="Los Angeles" class="d-block" style={{ width: "100%" }} />
+              <img src="https://www.shutterstock.com/image-photo/world-logistics-background-transportation-industry-260nw-1666881946.jpg" alt="Los Angeles" class="d-block" style={{ width: "100%" }} />
               <div class="carousel-caption">
                 <h3>Los Angeles</h3>
                 <p>We had such a great time in LA!</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="chicago.jpg" alt="Chicago" class="d-block" style={{ width: "100%" }} />
+              <img src="https://cdn.corporatefinanceinstitute.com/assets/imports-and-exports.jpeg" alt="Chicago" class="d-block" style={{ width: "100%" }} />
               <div class="carousel-caption">
                 <h3>Chicago</h3>
                 <p>Thank you, Chicago!</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="ny.jpg" alt="New York" class="d-block" style={{ width: "100%" }} />
+              <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/06/steelexport1.jpg" alt="New York" class="d-block" style={{ width: "100%" }} />
               <div class="carousel-caption">
                 <h3>New York</h3>
                 <p>We love the Big Apple!</p>

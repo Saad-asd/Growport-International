@@ -30,7 +30,7 @@ function Navbar() {
                     </div>
                     <a href="#contact" className="nav-item nav-link">Contact</a>
                 </div>
-                <h4 className="m-0 pe-lg-5 d-none d-lg-block"><a href="tel:6260852048" style={{color: "unset"}}><i className="fa fa-phone-alt me-3 text-primary me-3"></i>+91 999 395 6153</a></h4>
+                <h4 className="m-0 pe-lg-5 d-none d-lg-block"><a href="tel:9244566292" style={{color: "unset"}}><i className="fa fa-phone-alt me-3 text-primary me-3"></i>+91 92445 66292</a></h4>
             </div>
         </nav>
     );
