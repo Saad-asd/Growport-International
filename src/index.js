@@ -16,7 +16,7 @@ root.render(
     <Routes>
       <Route exact path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route exact path="/products/:id" element={<Product1 />} />
+        <Route path="/products/:id" element={<Product1 />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
