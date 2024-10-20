@@ -3,7 +3,7 @@ function Fact() {
         <div className="container-xxl py-5 sticky-image-container">
             <div className="container py-5">
                 <div className="row g-5">2
-                    <div style={{ padding: "20px", backgroundColor: "#ffffff82", backdropFilter: "blur(1px)", borderRadius: "10px", boxShadow: "0px 0px 20px 20px #ffffff5e" }}>
+                    <div style={{ padding: "20px", backgroundColor: "#ffffff82", backdropFilter: "blur(12px)", borderRadius: "10px", boxShadow: "0px 0px 20px 20px #ffffff5e" }}>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <h6 className="text-primary text-uppercase mb-3 red-head">What We Do</h6>
                             <h1 className="mb-5">#1 Place To Manage All Of Your Shipments</h1>
