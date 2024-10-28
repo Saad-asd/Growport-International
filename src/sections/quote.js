@@ -20,34 +20,33 @@ function Quote() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:3001/send-email', {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-        });
+        window.location.href = `mailto:khanmonis220@gmail.com?subject=${encodeURIComponent("Inquery for Transport")}&body=${encodeURIComponent(formData.specialNote)}`;
+        // const response = await fetch('http://localhost:3001/send-email', {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify(formData),
+        // });
 
-        if (response.ok) {
-            alert("Email sent successfully!");
-        }
-        else {
-            alert("Failed to send email: ", response);
-        }
-    };
-    return (
+        // if (response.ok) {
+        //     alert("Email sent successfully!");
+        // }
+        // else {
+        //     alert("Failed to send email: ", response);
+        // }
+    };    return (
         <div id="contact" className="container-xxl py-5">
             <div className="container py-5">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                         <h6 className="text-secondary text-uppercase mb-3">Get A Quote</h6>
                         <h1 className="mb-5">Request A Free Quote!</h1>
-                        <p className="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p className="mb-5">Easily receive a customized quote for your shipping needs. Our team is ready to provide a fast, free, and competitive estimate to get your cargo moving.</p>
                         <div className="d-flex align-items-center">
                             <i className="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                             <div className="ps-4">
-                                <h6>Call for any query!</h6>
+                                <h6>Call or WhatsApp for any query!</h6>
                                 <h3 className="text-primary m-0"><a href="tel:9244566292" style={{color: "unset"}}>+91 92445 66292</a></h3>
                             </div>
                         </div>
@@ -77,7 +76,7 @@ function Quote() {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="col-12 col-sm-6">
+                                <div className="col-12">
                                     <input
                                         type="text"
                                         className="form-control border-0"
@@ -88,7 +87,7 @@ function Quote() {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="col-12 col-sm-6">
+                                {/* <div className="col-12 col-sm-6">
                                     <select
                                         className="form-select border-0"
                                         style={{ height: 55 + 'px' }}
@@ -101,7 +100,7 @@ function Quote() {
                                         <option value="2">Freight 2</option>
                                         <option value="3">Freight 3</option>
                                     </select>
-                                </div>
+                                </div> */}
                                 <div className="col-12">
                                     <textarea
                                         className="form-control border-0"

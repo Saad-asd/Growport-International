@@ -1,9 +1,61 @@
+/* fonts */
+
+@font-face {
+    font-family: "Voyage Thin";
+    font-weight: 100;
+    src: url(../fonts/Voyage-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Voyage Bold";
+    font-weight: 900;
+    src: url(../fonts/Voyage-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Riesling";
+    font-weight: 100;
+    src: url(../fonts/Riesling.woff2);
+}
+
+@font-face {
+    font-family: "Bonheur Royale";
+    font-weight: 100;
+    src: url(../fonts/BonheurRoyale-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    src: url(../fonts/Montserrat-Regular.woff2);
+}
+
+@font-face {
+    font-family: "CarteBlanche";
+    font-weight: 100;
+    src: url(../fonts/CarteBlanche_Demo.woff2);
+}
+
+@font-face {
+    font-family: "PlayfairDispaly";
+    font-weight: 100;
+    src: url(../fonts/PlayfairDisplay-Regular.woff2);
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #FF3E41;
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "PlayfairDispaly";
 }
 
 .red-head {

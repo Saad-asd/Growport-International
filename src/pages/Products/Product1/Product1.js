@@ -18,7 +18,7 @@ function Product1() {
 						const itemName = Object.keys(item)[0];
 						const itemImage = item[itemName];
 						return (
-							<div className="col-6 col-sm-3 col-md-3 col-lg-4" key={index}>
+							<div className="col-6 col-sm-3 col-md-3 col-lg-4" style={{marginBottom:"10px"}} key={itemName+index}>
 								<div className="card">
 									<div className="img-cntr">
 										<img src={itemImage} alt={'Product Item ' + itemName} />
@@ -30,7 +30,7 @@ function Product1() {
 							</div>
 						);
 					});
-					rowItems.push(<div className="row">{itemList}</div>);
+					rowItems.push(<div className="row" style={{display:"flex",justifyContent:"center"}}>{itemList}</div>);
 					category.push(<div className="col-12">{rowItems}</div>);
 				});
 			});
@@ -43,11 +43,11 @@ function Product1() {
 	for (let i in products) {
 		if (Object.keys(products[i])[0] === id) {
 			prdObj = products[i][id]
-			let itemImages = prdObj['subImages'].map((imgPath) => {
-				return <div className="col-sm-3 col-md-3 col-lg-4">
+			let itemImages = prdObj['subImages'].map((imgPath, index) => {
+				return <div className="col-sm-3 col-md-3 col-lg-4" key={id+index}>
 					<div className="card">
 						<div className="img-cntr">
-							<img src={imgPath} alt={'Product Item ' + id} />
+							<img src={imgPath} style={{ objectFit: "contain" }}  alt={'Product Item ' + id} />
 						</div>
 						<div className="card-footer" style={{ textAlign: "center" }} >
 							<small className="text-muted">Last transport 3 months ago</small>
@@ -69,11 +69,12 @@ function Product1() {
 
 			<div className="container">
 				<h2>Product Details</h2>
-				<div className="row mb-3" style={{direction: "row",padding: "20px 10px",border: "1px solid #DFDDDE"}}>
+				<div className="row mb-3" style={{direction: "row",padding: "20px 10px",alignItems:"flex-start",border: "1px solid #DFDDDE"}}>
 					<img src={prdObj['productImage']} alt={'main image ' + id} className="col-sm-12 col-md-7 image-fluid" />
 					<div className="card-body col-md-3 col-sm-12">
 						<h5 className="card-title">{id.toUpperCase()}</h5>
-						<p className="card-text" style={{overflow: "auto",maxHeight: "300px"}}>{prdObj['desc']}</p>
+						{/* <p className="card-text" style={{overflow: "auto",maxHeight: "300px"}}>{prdObj['desc']}</p> */}
+						<p className="card-text">{prdObj['desc']}</p>
 					</div>
 				</div>
 

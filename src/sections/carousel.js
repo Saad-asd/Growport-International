@@ -7,10 +7,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css'; // Import Owl Carousel CSS
 function Carousel() {
     useEffect(() => {
         $(".header-carousel").owlCarousel({
-            autoplay: false,
-            smartSpeed: 1500,
+            autoplay: true,
+            autoplayTimeout:5000,
             items: 1,
-            dots: false,
             loop: true,
             nav: true,
             navText: [
