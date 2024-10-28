@@ -19,13 +19,13 @@ function License() {
   slidesData.forEach((item, index) => {
     licenses.push(
       <Carousel.Item interval={3000} key={index}>
-        <img src={item} alt={item.split('.')[1].split('/')[-1]} />
+        <img src={item} style={{ width: "100%" }} alt={item.split('.')[1].split('/')[-1]} />
       </Carousel.Item>);
   })
 
   return (
-    <div style={{display:"flex", justifyContent:"center"}}>
-      <Carousel style={{ width: "min-content" }}>
+    <div style={{display:"flex", justifyContent:"center", margin:"0 10px"}}>
+      <Carousel style={{ width: "320px" }}>
         {licenses}
         {/* <Carousel.Item interval={3000}>
           <ExampleCarouselImage text="First slide" />
