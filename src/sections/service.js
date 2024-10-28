@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import products from "../common/products";
 
 function Service() {
-    const productNames = products.map(product => Object.keys(product)[0]).sort();
+    // const productNames = productData.products.map(product => Object.keys(product)[0]).sort();
+    const productNames = ["leather","grocery","fruit&vegitable","fabric", "copper","furniture"];
     const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-    const elements = productNames.map(productName => {
+    const elements = productNames.map((productName, index) => {
         const item = products.find(product => Object.keys(product)[0] === productName)[productName];
-        return <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+        return <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" key={index}>
             <Link className="service-item p-4 card" to={"/products/" + productName}>
                 <div className="overflow-hidden mb-4 img-cntr">
                     <img className="img-fluid" src={item.productImage} alt="" />

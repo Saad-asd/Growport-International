@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Layout />}>
+      <Route exact="true" path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/products/:id" element={<Product1 />} />
         <Route path="*" element={<NoPage />} />
